@@ -7,6 +7,11 @@ The runtime directory structure in the container is similar to the official guid
 - No virtualenv
 - /var/www/pydap/server/data/ is mounted into the container at runtime as defined in docker-compose.yml
 
+## TODO
+
+* To include additional handlers apart from NetCDF
+
+
 ## Usage
 
 First, decide on the full pathname (existing directory) outside the container where your data will be stored.
